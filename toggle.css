@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-button {
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-button.on {
+    background-color: #4caf50;
+    color: white;
+}
+
+.toggle-button.off {
+    background-color: #f44336;
+    color: white;
+}
